@@ -246,12 +246,22 @@
 }
 .q-cards .card .card-content .price {
   margin: 8px 0 0 0;
+  font-family: w400;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: center;
 }
 .q-cards .card .card-content svg {
   margin: 30px 0 0 0;
 }
 .q-cards .card .card-content .reviews {
   margin: 5px 0 0 0;
+  font-family: w400;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.64px;
+  text-align: center;
 }
 .q-cards .card .image {
   display: flex;
@@ -356,7 +366,7 @@
 }
 
 .footer {
-  background: #FAF9FC;
+  background: #faf9fc;
   margin: 70px 26px;
   border-radius: 60px;
 }
@@ -422,7 +432,7 @@
   margin-right: 100px;
   padding: 10px 18px;
   border: none;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 4px 4px 13.1px 0px rgba(0, 0, 0, 0.2509803922);
 }
 .footer .lang .icon {
@@ -431,7 +441,10 @@
 
 .f2 {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
   margin: 14px 50px 80px 50px;
 }
 .f2 .terms {
