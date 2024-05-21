@@ -546,6 +546,11 @@
   .convinced .circle-stars-button .circle-stars {
     justify-content: center;
   }
+  .f2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 @media (min-width: 1200px) {
   .q-h1 {
