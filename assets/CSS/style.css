@@ -1,1 +1,330 @@
 /* Apply to 0 to 574 */
+@font-face {
+    font-family: w800;
+    src: url('../fonts/PlusJakartaSans-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: w700;
+    src: url('../fonts/PlusJakartaSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: w600;
+    src: url('../fonts/PlusJakartaSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: w500;
+    src: url('../fonts/PlusJakartaSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: w400;
+    src: url('../fonts/PlusJakartaSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: w300;
+    src: url('../fonts/PlusJakartaSans-Light.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.div-top {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Announcement Bar  */
+.announcement-bar {
+    background: #FF553C;
+    font-family: w800;
+    font-size: 14.5px;
+    font-weight: 800;
+    line-height: 18.27px;
+    text-align: center;
+    color: white;
+}
+
+.announcement-bar p {
+    padding: 10px;
+}
+
+/* Menubar  */
+.menu-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #747474;
+}
+
+.menu-bar nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.menu-bar nav ul li {
+    margin-inline: 30px;
+}
+
+.menu-bar nav ul li a {
+    text-decoration: none;
+    font-family: w600;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.64px;
+    text-align: left;
+    color: #747474;
+}
+
+.menu-bar nav ul li button {
+    color: #2AF0EA;
+    border: 1px solid #2AF0EA;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: white;
+}
+
+
+/* Banner  */
+.banner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 40px;
+}
+
+.banner .video img {
+    width: 100%;
+    height: auto;
+}
+
+.banner .text .button-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.banner .text h1 {
+    font-family: w700;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45.52px;
+    text-align: left;
+
+}
+
+.banner .text p {
+    font-family: w400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+
+.banner .text .button-text button {
+    background: #FF553C;
+    color: white;
+    font-family: w700;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 12px;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.brands brand-img {
+    width: 23%;
+}
+
+.brands brand-img img {
+    width: 100%;
+}
+
+
+/* Red Cards  */
+.red-cards {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 30px;
+    margin-top: 40px;
+    background: #FF553C;
+    border-radius: 27px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.red-cards .card {
+    background: #FFFFFF;
+    border-radius: 34px;
+}
+
+.red-cards .card h3 {
+    font-family: w700;
+    padding: 16px 25px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+}
+
+.red-cards .card p {
+    font-family: w300;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18.9px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-top: 16px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+/* Twiscy Works  */
+.twiscy .works {
+    font-family: w400;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #FF553C;
+}
+
+.twiscy h1 {
+    font-family: w700;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 40.48px;
+}
+
+.twiscy .para {
+    font-family: w500;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: center;
+    color: #535050;
+    /* My custom CSS  */
+    padding: 12px 18px;
+}
+
+.twiscy .rectangle {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D7D7D7;
+    border-radius: 20px;
+    margin: 20px 15px;
+}
+
+.twiscy .img-text {
+    display: flex;
+}
+
+.twiscy .rectangle .circle {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: #2AF0EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twiscy .rectangle p {
+    font-family: w400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    text-align: left;
+}
+
+.twiscy .rectangle .img-text p {
+    margin-left: 25px;
+}
+
+.twiscy .rectangle .text p {
+    margin-left: 99px;
+    margin-top: 15px;
+}
+.twiscy .cards{
+    display: flex;
+    flex-direction: column;
+}
+.twiscy .cards .card {
+    background: #2AF0EA;
+    height: 210px;
+    border-radius: 26px;
+    margin: 11px 16px;
+}
+
+.twiscy .cards .card h4 {
+
+    padding-left: 53px;
+    font-family: w700;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+}
+
+.twiscy .cards .card p {
+    padding-top: 30px;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-align: left;
+}
+
+.twiscy .cards .card .cir {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 28px;
+}
+
+.twiscy .cards .card .cir .icon {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    display: flex;
+}
+
+
+.second-color{
+    background: #DE8C9D;
+}
+.third-color{
+    background: #397684;
+}

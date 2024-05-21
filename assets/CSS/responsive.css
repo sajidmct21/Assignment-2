@@ -1,21 +1,239 @@
 /* Apply to 576 and above */
 @media (min-width:576px) {
+    .div-top{
+        margin-top: 25px;
+    }
+
+    /* Banner Button  */
+    .banner .text .button-text button {       
+        font-size: 20px;      
+        padding: 15px 25px;       
+    }
+
+    .banner .text p {        
+        line-height: 25.16px;
+        margin-top: 15px;       
+    }
+
+    /* Red Cards  */
+    .red-cards{        
+        padding: 40px;
+        margin-top: 40px;
+        row-gap: 25px;
+    }
+    .red-cards .card h3{        
+        padding: 16px 25px;
+    font-size: 15px;   
+    }
+    .red-cards .card p { 
+        padding-left: 25px;    
+    }
+    /* Twiscy Works  */
+    .twiscy .para {
+        
+        font-size: 16px;      
+    
+        /* My custom CSS  */
+        padding: 12px 21px;
+    }
     
 }
 /* Apply to 768 and above */
 @media (min-width:768px) {
+
+    .div-top{
+        margin-top: 28px;
+    }
+    .banner .text h1 {
+        margin-top: 20px;
+        font-size: 52px;
+        line-height: 55px;   
+    }
+
+    .banner .text p {        
+        margin-right: 135px;       
+    }
+   
+    /* Twiscy Works  */
+    .twiscy h1{
+        font-size: 28px;
+    }
+    .twiscy h1:first-of-type {       
+        margin-top: 21px;        
+    }
+
+    .twiscy .para {
+
+        padding: 12px 35px;
+    }
     
 }
 /* Apply to 992 and above */
 @media (min-width:992px) {
+    .div-top{
+        margin-top: 32px;
+    }
+    /* Banner  */
+    .banner {
+        margin-left: 30px;
+        margin-right: 30px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .banner .video{
+        width: 70%;
+    }
+    .banner .text{
+        padding-left: 20px;
+    }
+    .banner .text h1 {
+        font-size: 42px;
+    }
+    .banner .text .button-text {
+        justify-content: flex-start;
+        margin-top: 15px;
+    }
+    .banner .text .button-text button{
+        margin-right: 71px;
+    }
+
+    /* Red Cards  */
+    .red-cards{  
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+ 
+    }
+    .red-cards .card{
+        width: 32%;
+        height: 277px;
+    }
+
+    /* Twiscy Works  */
+    .twiscy h1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .twiscy .para {
+        margin: 0px 150px;
+    }
+    .twiscy .rectangle .text p{
+        margin-top: 0px;
+        padding-left: 80px;
+        text-align: left;
+    }
+    .twiscy .rectangle{       
+        flex-direction: row;
+        padding: 10px 16px;      
+    }
+    .twiscy .img-text{
+        align-items: center;
+    }
+
+    .twiscy .rectangle .text{
+        padding-top: 12px;
+    }
+    .twiscy .cards{
+        flex-direction: row;
+    }
     
 }
 /* Apply to 1200 and above */
 @media (min-width:1200px) {
-    
+    .div-top{
+        margin-top: 35px;
+    }
+
+    .banner {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .banner .text{
+        padding-left: 30px;
+    }
+    .banner .text h1 {
+        font-size: 52px;      
+    }
+    /* Banner Button  */
+    .banner .text .button-text button {       
+        font-size: 20px;      
+        padding: 20px 35px;       
+    }
+    .brands{       
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .banner .text .button-text {
+        margin-top: 25px;
+    }
+    .brands{ 
+        justify-content: flex-start;
+        margin-top: 17px;    
+    }
+    .brands .brand-img{
+      margin-right: 25px;
+    }
+
+    /* Twiscy Works  */
+    .twiscy h1{
+        font-size: 44px;
+        line-height: 60px;
+    }
+    .twiscy .para {
+        margin: 0px 100px;
+    }
+    .twiscy .rectangle{       
+        margin: 20px 56px;      
+    }
+    .twiscy .cards{
+        margin: 30px 40px;
+    }
 }
 
 /* Apply to 1400 and above */
 @media (min-width:1400px) {
-    
+    .div-top{
+        margin-top: 40px;
+    }
+    .banner {
+        margin-left: 106px;
+        margin-right: 106px;
+    }
+    .banner .text{
+        padding-left: 85px;
+    }
+    .banner .text h1 {
+        padding-right: 50px;  
+        line-height: 70px;    
+    }
+    .banner .text p {
+        padding-right: 70px;    
+      }
+    /* Banner Button  */
+    .banner .text .button-text{
+        justify-content: flex-start;
+    }
+    .banner .text .button-text button {       
+        font-size: 20px;      
+        padding: 20px 35px;
+        margin-right: 70px;       
+    }
+
+    /* Twiscy Works  */
+    .twiscy h1{
+        font-size: 48px;
+    }
+    .twiscy .para {
+        margin: 0px 250px;
+    }
+    .twiscy .rectangle{       
+        margin: 30px 216px;      
+    }
+    .twiscy .rectangle .text{
+        padding-top: 23px;
+    }
+    .twiscy .cards{
+        margin: 50px 200px;
+    }
 }
