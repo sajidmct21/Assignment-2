@@ -6,14 +6,13 @@
       margin-left: 10px;
     }
   }
-  .convinced{
-    .circle-stars-button{
-      .circle-stars{
+  .convinced {
+    .circle-stars-button {
+      .circle-stars {
         justify-content: space-around;
       }
     }
   }
-  
 }
 
 @media (min-width: 768px) {
@@ -65,13 +64,18 @@
     line-height: 44.48px;
     margin: 30px 150px 0 150px;
   }
-  .q-p{
-  margin: 22px 61px 0 61px;
+  .q-p {
+    margin: 22px 61px 0 61px;
   }
   .q-rectangle {
     margin: 25px 100px 0 100px;
     p {
       margin-left: 10px;
+      font-family: w500;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 25.2px;
+      text-align: left;
     }
   }
   .q-cards {
@@ -85,22 +89,30 @@
     }
   }
 
-  .convinced{
-    .circle-stars-button{
+  .convinced {
+    .circle-stars-button {
       flex-direction: row;
       justify-content: space-between;
       margin: 20px 40px;
-      .circle-stars{
+      .circle-stars {
         justify-content: center;
       }
     }
   }
 
-  // footer 
+  // footer
+  .footer {
+    .main {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+  }
+
   .f2 {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
   }
 }
 
@@ -116,21 +128,19 @@
       margin-left: 30px;
     }
   }
-  .convinced{
-    .circle-stars-button{
-      margin: 32px 132px;      
+  .convinced {
+    .circle-stars-button {
+      margin: 32px 132px;
     }
   }
 
-  .footer{
-    .main{
+  .footer {
+    .main {
       flex-direction: row;
       justify-content: space-around;
       align-items: stretch;
     }
   }
-
-  
 }
 
 @media (min-width: 1400px) {
@@ -168,8 +178,8 @@
       margin-left: 50px;
     }
   }
-  // Menu 
-  .menu-bar nav ul{
+  // Menu
+  .menu-bar nav ul {
     display: flex;
   }
 }

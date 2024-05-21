@@ -459,6 +459,45 @@
   text-align: center;
 }
 
+.sidebar {
+  display: none;
+  position: fixed;
+  right: -250px;
+  top: 100px;
+  height: 700px;
+  width: 250px;
+  background: #ffffff;
+  border-left: 2px solid #C5C5C5;
+  transition: all 5s ease-in;
+}
+.sidebar nav {
+  padding-top: 50px;
+}
+.sidebar nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.sidebar nav ul li button {
+  margin-left: 15px;
+}
+.sidebar nav ul li a {
+  font-family: w600;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.64px;
+  text-align: left;
+  color: #747474;
+  text-decoration: none;
+}
+
+.showData {
+  display: flex;
+  right: 0px;
+}
+
 @media (min-width: 576px) {
   .q-rectangle {
     margin: 25px 30px 0 30px;
@@ -528,6 +567,11 @@
   }
   .q-rectangle p {
     margin-left: 10px;
+    font-family: w500;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
   }
   .q-cards {
     margin: 45px 100px;
@@ -545,6 +589,11 @@
   }
   .convinced .circle-stars-button .circle-stars {
     justify-content: center;
+  }
+  .footer .main {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
   }
   .f2 {
     display: flex;

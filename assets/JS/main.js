@@ -1,8 +1,9 @@
-// const menuIcon = document.querySelector('.menu-icon');
-// const nav = document.querySelector('ul')
-// menuIcon.addEventListener('click',()=>{
-//     nav.classList.toggle('showData');
-// })
+const menuIcon = document.querySelector('.menu-icon');
+ const div = document.querySelector('.sidebar')
+menuIcon.addEventListener('click',()=>{
+    div.classList.toggle('showData');
+}
+)
 
 //    Initialize Swiper 
 

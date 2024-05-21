@@ -243,11 +243,10 @@
       .price {
         margin: 8px 0 0 0;
         font-family: w400;
-font-size: 15px;
-font-weight: 400;
-line-height: 18.9px;
-text-align: center;
-
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18.9px;
+        text-align: center;
       }
       svg {
         margin: 30px 0 0 0;
@@ -255,11 +254,10 @@ text-align: center;
       .reviews {
         margin: 5px 0 0 0;
         font-family: w400;
-font-size: 14px;
-font-weight: 400;
-line-height: 17.64px;
-text-align: center;
-
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.64px;
+        text-align: center;
       }
     }
     .image {
@@ -449,7 +447,7 @@ text-align: center;
 .f2 {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   row-gap: 15px;
   margin: 14px 50px 80px 50px;
@@ -466,3 +464,42 @@ text-align: center;
   }
 }
 
+.sidebar {
+  display: none;
+  position: fixed;
+  right: -250px;
+  top: 100px;
+  height: 700px;
+  width: 250px;
+  background: #ffffff;
+  border-left: 2px solid #C5C5C5;
+  transition: all 5s ease-in;
+  nav {
+    padding-top: 50px;
+    ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      row-gap: 50px;
+      li {
+        button{
+          margin-left: 15px;
+        }
+        a {
+          font-family: w600;
+          margin-left: 15px;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 17.64px;
+          text-align: left;
+          color: #747474;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+.showData{
+  display: flex;
+  right: 0px;
+}
