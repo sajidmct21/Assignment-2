@@ -588,4 +588,7 @@
   .q-rectangle p {
     margin-left: 50px;
   }
+  .menu-bar nav ul {
+    display: flex;
+  }
 }/*# sourceMappingURL=custom.css.map */

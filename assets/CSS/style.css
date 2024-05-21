@@ -76,7 +76,7 @@
 }
 
 .menu-bar nav ul {
-    display: flex;
+    display: none;
     list-style-type: none;
     align-items: center;
 }

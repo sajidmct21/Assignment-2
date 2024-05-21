@@ -122,6 +122,8 @@
       align-items: stretch;
     }
   }
+
+  
 }
 
 @media (min-width: 1400px) {
@@ -158,5 +160,9 @@
     p {
       margin-left: 50px;
     }
+  }
+  // Menu 
+  .menu-bar nav ul{
+    display: flex;
   }
 }
