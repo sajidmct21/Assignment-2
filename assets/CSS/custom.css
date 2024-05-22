@@ -481,6 +481,11 @@
 }
 .sidebar nav ul li button {
   margin-left: 15px;
+  color: #2af0ea;
+  border: 1px solid #2af0ea;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: white;
 }
 .sidebar nav ul li a {
   font-family: w600;
