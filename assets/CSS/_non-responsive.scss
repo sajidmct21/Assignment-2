@@ -415,6 +415,7 @@
         line-height: 18.9px;
         text-align: center;
       }
+
       p {
         margin-top: 14px;
         margin-bottom: 18px;
@@ -423,6 +424,9 @@
         font-weight: 400;
         line-height: 16.8px;
         text-align: center;
+        span{
+          color: #ff553c;
+        }
       }
     }
   }

@@ -420,6 +420,9 @@
   line-height: 16.8px;
   text-align: center;
 }
+.footer .main .div-3 p span {
+  color: #ff553c;
+}
 .footer .lang {
   display: flex;
   justify-content: space-between;
