@@ -296,6 +296,8 @@
     color: #000;
     margin: 0;
     padding: 0;
+    padding-bottom: 90px;
+
     .swiper {
       width: 100%;
       padding-top: 50px;
@@ -305,16 +307,18 @@
       background-position: center;
       background-size: cover;
       width: 300px;
-      height: 600px;
-      .img {
+      img {
         display: block;
         width: 100%;
+        border-radius: 50px;
       }
     }
   }
   .circle-stars-button {
     display: flex;
     flex-direction: column;
+    // border: 2px solid red;
+    padding-bottom: 50px;
     .circle-stars {
       display: flex;
       align-items: center;
@@ -511,10 +515,15 @@
 .body-2 {
   background: #faf9fc;
   padding: 60px 90px;
+  padding-bottom: 335px;
+  // border: 2px solid red;
+  margin-top: -90px;
   .comma-card {
     background: #ffffff;
     position: relative;
     padding-top: 100px;
+    padding-left: 35px;
+    padding-right: 35px;
     border-radius: 31px;
     .comma {
       position: absolute;

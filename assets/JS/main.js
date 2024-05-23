@@ -10,13 +10,14 @@ menuIcon.addEventListener('click',()=>{
     var swiper = new Swiper(".mySwiper", {
       effect: "coverflow",
       grabCursor: true,
+      // loop: true,
       centeredSlides: true,
       slidesPerView: "auto",
       coverflowEffect: {
-        rotate: 15,
-        stretch: 0,
+        rotate: 0,
+        stretch: 100,
         depth: 400,
-        modifier: 1,
+        modifier: 0.8,
         slideShadows: true,
       },
       pagination: {
@@ -28,11 +29,12 @@ menuIcon.addEventListener('click',()=>{
 
       var swiper = new Swiper(".mySwiper2", {
         slidesPerView: 3,
-        spaceBetween: 30,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
+        spaceBetween: 0,
+        // loop:true,
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: true,
+        // },
         breakpoints: {
           575: {
             slidesPerView: 1,

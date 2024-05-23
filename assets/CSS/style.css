@@ -299,7 +299,7 @@
     text-align: left;
 }
 
-.twiscy .cards .card p {
+.twiscy .cards .card .p1 {
     padding-top: 30px;
     padding-left: 28px;
     padding-right: 28px;
@@ -319,6 +319,16 @@
     border-radius: 50%;
     background: #FFFFFF;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twiscy .cards .card .cir .icon p{
+    font-family: w700;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.16px;
+text-align: left;
+
 }
 
 

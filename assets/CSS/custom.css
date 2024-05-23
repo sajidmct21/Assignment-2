@@ -298,6 +298,7 @@
   color: #000;
   margin: 0;
   padding: 0;
+  padding-bottom: 90px;
 }
 .convinced .swiper-body .swiper {
   width: 100%;
@@ -308,15 +309,16 @@
   background-position: center;
   background-size: cover;
   width: 300px;
-  height: 600px;
 }
-.convinced .swiper-body .swiper-slide .img {
+.convinced .swiper-body .swiper-slide img {
   display: block;
   width: 100%;
+  border-radius: 50px;
 }
 .convinced .circle-stars-button {
   display: flex;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 .convinced .circle-stars-button .circle-stars {
   display: flex;
@@ -506,11 +508,15 @@
 .body-2 {
   background: #faf9fc;
   padding: 60px 90px;
+  padding-bottom: 335px;
+  margin-top: -90px;
 }
 .body-2 .comma-card {
   background: #ffffff;
   position: relative;
   padding-top: 100px;
+  padding-left: 35px;
+  padding-right: 35px;
   border-radius: 31px;
 }
 .body-2 .comma-card .comma {
